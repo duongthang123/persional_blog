@@ -4,23 +4,29 @@ import ImgPersional from '../assets/me.jpg';
 const Information = () => {
   return (
     <div className='flex'>
-        <div className='relative flex items-center justify-around bg-[#faf2ef] w-[50%] h-[744px]'>
+        <div className='relative flex items-center justify-around bg-[#eaf6ff] w-[50%] h-[744px]'>
             <img className='w-[80%] h-[90%] object-contain p-8' src={ImgPersional} alt='Anh'/>
         </div>
-        <div className='flex flex-col justify-center w-[50%] py-4 px-22 text-[#414141]'>
-          <h1 className='text-[42px]'>Hi, I'm Duong Van Thang</h1>
-          <p className='text-[20px] pt-4' >
-            A mental health blogger. Passionate about sharing thoughts and information on everything that makes my days better.
-          </p>
-          <p className='text-[16px] pt-4'>
-            I’m a passionate Web Developer with a strong focus on building responsive and user-friendly websites.
-            I specialize in technologies like HTML, CSS, JavaScript, and modern frameworks such as React and Laravel.
-            My goal is to create digital experiences that are both visually appealing and highly functional.
-            I enjoy solving complex problems and turning ideas into fully working web applications.
-            Always eager to learn, I keep myself updated with the latest trends in web development.
+        <div className='flex flex-col items-center justify-center w-[50%] py-4 px-22 text-[#414141]'>
+          <p className='text-[16px]'>Xin chào! Tôi là</p>
+          <h1 className='text-[38px] text-[#65b9f8] font-[550]'>Dương Văn Thắng</h1>
+          <p className='text-[20px] font-[450]'>
+            Web Developer
           </p>
 
-          <button className='text-[16px] max-w-[176px] outline mt-[56px] px-6 py-3 cursor-pointer'>Read more</button>
+          <div className="w-[80px] h-[2px] bg-[#65b9f8] mt-12"></div>
+          <div className='flex flex-row justify-between items-center text-[16px] cursor-pointer mt-8'>
+            <button className='p-2 mx-2 min-w-[120px] border-[2px] rounded-[8px] border-[#65b9f8] cursor-pointer font-[450]'>Giới thiệu</button>
+            <button className='p-2 mx-2 min-w-[120px] border-[2px] rounded-[8px] text-[#fff] bg-[#65b9f8] border-[#65b9f8] font-[450] cursor-pointer'>Tải CV</button>
+          </div>
+
+          <nav className=''>
+            <a href=''></a>
+            <a href=''></a>
+            <a href=''></a>
+            <a href=''></a>
+          </nav>
+
         </div>
     </div>
   )

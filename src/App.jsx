@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Information from './components/Information'
+import Introduce from './components/Introduce'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <div className='container mx-auto'>
         <Header />  
         <Information />
+        <Introduce />
       </div>
     </>
   )

@@ -26,7 +26,7 @@ function Introduce() {
 
                     <div className="px-6">
                         <FontAwesomeIcon icon={faTv}  style={{fontSize: '26px'}} />
-                        <p className="pt-4">Có thể thiết kế Frontend với ReactJs, NextJS Framework </p>
+                        <p className="pt-4">Có thể thiết kế Frontend với JS (ReactJs, NextJS Framework)</p>
                     </div>
 
                     <div className="px-6">
@@ -39,11 +39,12 @@ function Introduce() {
             <div className="flex justify-between items-center pt-16 mx-auto px-30 text-[16px]">
                 <p className="w-[50%] p-6 pr-6px">
                     Xin chào! Tôi là Dương Văn Thắng. Sinh năm 2002. Hiện tại đang sinh sống và làm việc tại Hải Dương. 
-                    Tôi đang là một chiến sỹ nghĩa vụ Công an nhân dân. Đang thực hiện nhiệm vụ bảo vệ Tổ quốc. 
+                    Tôi đang là một chiến sĩ nghĩa vụ Công an nhân dân. Đang thực hiện nhiệm vụ bảo vệ Tổ quốc. 
                     Tôi rất đam mê lập trình đặc biệt là lập trình websites
                     Tôi có hơn 1 năm kinh nghiệm làm việc thực tế với PHP (Laravel, Cake), JavaScript (ReactJs, NextJs), BootStrap, Tailwind, Docker, Git.....
                 </p>
-                <img className="w-[50%] p-6" src={introduceImg} alt="img_introduce"/>
+                    
+                <img className="w-[50%] p-6 rounded-sm" src={introduceImg} alt="img_introduce"/>
             </div>
         </div>
     </div>

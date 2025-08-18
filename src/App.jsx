@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Information from './components/Information'
 import Introduce from './components/Introduce'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Header />  
         <Information />
         <Introduce />
+        <Skills />
       </div>
     </>
   )

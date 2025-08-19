@@ -1,3 +1,5 @@
+import Contact from './components/contact'
+import Experiencens from './components/Experiencens'
 import Header from './components/Header'
 import Information from './components/Information'
 import Introduce from './components/Introduce'
@@ -12,6 +14,8 @@ function App() {
         <Information />
         <Introduce />
         <Skills />
+        <Experiencens />
+        <Contact />
       </div>
     </>
   )

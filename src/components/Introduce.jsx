@@ -38,10 +38,14 @@ function Introduce() {
 
             <div className="flex justify-between items-center pt-16 mx-auto px-30 text-[16px]">
                 <p className="w-[50%] p-6 pr-6">
-                    Xin chào! Tôi là Dương Văn Thắng. Sinh năm 2002. Hiện tại đang sinh sống và làm việc tại Hải Dương. 
+                    {/* Xin chào! Tôi là Dương Văn Thắng. Sinh năm 2002. Hiện tại đang sinh sống và làm việc tại Hải Dương. 
                     Tôi đang là một chiến sĩ nghĩa vụ Công an nhân dân. Đang thực hiện nhiệm vụ bảo vệ Tổ quốc. 
                     Tôi rất đam mê lập trình đặc biệt là lập trình websites
-                    Tôi có hơn 1 năm kinh nghiệm làm việc thực tế với PHP (Laravel, Cake), JavaScript (ReactJs, NextJs), BootStrap, Tailwind, Docker, Git.....
+                    Tôi có hơn 1 năm kinh nghiệm làm việc thực tế với PHP (Laravel, Cake), JavaScript (ReactJs, NextJs), BootStrap, Tailwind, Docker, Git..... */}
+                    Hello! I am Duong Van Thang. I was born in 2002. I am currently living and working in Hai Duong. 
+                    I am a soldier of the People's Police. Is performing the task of defending the Fatherland. 
+                    I am very passionate about programming, especially websites.
+                     I have more than 1 year of practical work experience with PHP (Laravel, Cake), JavaScript (Reactjs, Nextjs), Bootstrap, Tailwind, Docker, Git .....
                 </p>
                     
                 <img className="w-[50%] p-6 rounded-sm" src={introduceImg} alt="img_introduce"/>

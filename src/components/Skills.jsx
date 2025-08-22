@@ -66,7 +66,7 @@ function Skills() {
                         style={{width: '270px', height: '135px'}}
                         alt="ImgLaravel"
                     />
-                    <p className="pt-4 font-[550]">Docker Framework bootstrapImg</p>
+                    <p className="pt-4 font-[550]">Docker</p>
                 </div>
 
                 <div className="px-6 p-4">

@@ -12,43 +12,39 @@ function Introduce() {
                 <p className="px-6 text-[30px] text-[#65b9f8]">About Me</p>
                 <p className="w-[80px] h-[2px] bg-[#ddd]"></p>
             </div>
-            <div className="pt-20 px-30">
-                <div className="flex justify-between items-center text-center">
-                    <div className="px-6">
+            <div className="pt-20 md:px-30 px-4 w-[100%]">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                    <div className="md:px-6">
                         <FontAwesomeIcon icon={faSchool} style={{fontSize: '26px'}}/>
-                        <p className="pt-4">Tốt nghiệp chuyên ngành Kỹ thuật phần mềm Trường Đại học Công Nghiệp Hà Nội. <b>GPA: 3.52</b></p>
+                        <p className="pt-4">Graduated from software engineering in Hanoi Industrial University. <b>GPA: 3.52</b></p>
                     </div>
 
-                    <div className="px-6">
+                    <div className="md:px-6">
                         <FontAwesomeIcon icon={faBriefcase}  style={{fontSize: '26px'}} />
-                        <p className="pt-4">1 năm kinh nghiệm thực tế Backend với PHP (Laravek, Cake Framework)</p>
+                        <p className="pt-4">1 year of practical experience Backend with PHP (Laravel, CakePHP Framework)</p>
                     </div>
 
-                    <div className="px-6">
+                    <div className="md:px-6">
                         <FontAwesomeIcon icon={faTv}  style={{fontSize: '26px'}} />
-                        <p className="pt-4">Có thể thiết kế Frontend với JS (ReactJs, NextJS Framework)</p>
+                        <p className="pt-4">Can design Frontend with JS (ReactJs, NextJS Framework)</p>
                     </div>
 
-                    <div className="px-6">
+                    <div className="md:px-6">
                         <FontAwesomeIcon icon={faHandshake}  style={{fontSize: '26px'}} />
-                        <p className="pt-4">Tinh thần trách nhiệm cao trong công việc</p>
+                        <p className="pt-4">High sense of responsibility at work</p>
                     </div>
                 </div>
             </div>
 
-            <div className="flex justify-between items-center pt-16 mx-auto px-30 text-[16px]">
-                <p className="w-[50%] p-6 pr-6">
-                    {/* Xin chào! Tôi là Dương Văn Thắng. Sinh năm 2002. Hiện tại đang sinh sống và làm việc tại Hải Dương. 
-                    Tôi đang là một chiến sĩ nghĩa vụ Công an nhân dân. Đang thực hiện nhiệm vụ bảo vệ Tổ quốc. 
-                    Tôi rất đam mê lập trình đặc biệt là lập trình websites
-                    Tôi có hơn 1 năm kinh nghiệm làm việc thực tế với PHP (Laravel, Cake), JavaScript (ReactJs, NextJs), BootStrap, Tailwind, Docker, Git..... */}
+            <div className="flex flex-col-reverse md:flex-row justify-between items-center pt-4 md:pt-16 mx-auto px-4 md:px-30 text-[16px]">
+                <p className="text-center md:text-left md:w-[50%] px-6 py-2 md:p-6 pr-6">
                     Hello! I am Duong Van Thang. I was born in 2002. I am currently living and working in Hai Duong. 
                     I am a soldier of the People's Police. Is performing the task of defending the Fatherland. 
                     I am very passionate about programming, especially websites.
-                     I have more than 1 year of practical work experience with PHP (Laravel, Cake), JavaScript (Reactjs, Nextjs), Bootstrap, Tailwind, Docker, Git .....
+                    I have more than 1 year of practical work experience with PHP (Laravel, Cake), JavaScript (Reactjs, Nextjs), Bootstrap, Tailwind, Docker, Git .....
                 </p>
                     
-                <img className="w-[50%] p-6 rounded-sm" src={introduceImg} alt="img_introduce"/>
+                <img className="md:w-[50%] p-6 rounded-sm" src={introduceImg} alt="img_introduce"/>
             </div>
         </div>
     </div>

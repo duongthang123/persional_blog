@@ -5,11 +5,11 @@ import { faFacebook, faInstagram,faLinkedin } from '@fortawesome/free-brands-svg
 
 const Information = () => {
   return (
-    <div className='flex'>
-        <div className='relative flex items-center justify-around bg-[#eaf6ff] w-[50%] h-[744px]'>
-            <img className='w-[80%] h-[90%] object-contain p-8' src={ImgPersional} alt='Anh'/>
+    <div className='flex flex-col md:flex-row'>
+        <div className='relative flex items-center justify-around bg-[#eaf6ff] md:w-[50%] md:h-[744px]'>
+            <img className='w-[50%] md:w-[80%] h-[90%] object-contain p-8' src={ImgPersional} alt='Anh'/>
         </div>
-        <div className='flex flex-col items-center justify-center w-[50%] py-4 px-22 text-[#414141]'>
+        <div className='flex flex-col items-center justify-center md:w-[50%] py-4 pt-10 md:px-22 text-[#414141]'>
           <p className='text-[16px]'>Hi! I'm</p>
           <h1 className='text-[38px] text-[#65b9f8] font-[550]'>Duong Van Thang</h1>
           <p className='text-[20px] font-[450]'>
@@ -31,13 +31,13 @@ const Information = () => {
           </div>
 
           <nav className='mt-12 p-2'>
-            <a href='' className='p-2 mx-2 cursor-pointer'>
+            <a href='https://www.facebook.com/thang.duong.12914216/' className='p-2 mx-2 cursor-pointer'>
               <FontAwesomeIcon icon={faFacebook} style={{fontSize: 20, color: '#0866ff'}}/>
             </a>
-            <a href='' className='p-2 mx-2 cursor-pointer'>
+            <a href='https://www.instagram.com/potato22.dt/' className='p-2 mx-2 cursor-pointer'>
               <FontAwesomeIcon icon={faInstagram} style={{fontSize: 20, color: '#E1306C'}}/>
             </a>
-            <a href='' className='p-2 mx-2 cursor-pointer'>
+            <a href='https://www.linkedin.com/in/d%C6%B0%C6%A1ng-th%E1%BA%AFng-undefined-3651422b9/' className='p-2 mx-2 cursor-pointer'>
               <FontAwesomeIcon icon={faLinkedin} style={{fontSize: 20, color: '#0a66c2'}}/>
             </a>
           </nav>

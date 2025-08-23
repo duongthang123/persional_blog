@@ -7,7 +7,7 @@ const Information = () => {
   return (
     <div className='flex flex-col md:flex-row'>
         <div className='relative flex items-center justify-around bg-[#eaf6ff] md:w-[50%] md:h-[744px]'>
-            <img className='w-[50%] md:w-[80%] h-[90%] object-contain p-8' src={ImgPersional} alt='Anh'/>
+            <img className='w-[50%] md:w-[80%] h-[90%] object-contain p-8' src={ImgPersional} alt='Anh Logo'/>
         </div>
         <div className='flex flex-col items-center justify-center md:w-[50%] py-4 pt-10 md:px-22 text-[#414141]'>
           <p className='text-[16px]'>Hi! I'm</p>

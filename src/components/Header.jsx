@@ -15,10 +15,10 @@ const Header = () => {
 
         <nav className="hidden md:flex py-6 px-8 text-[16px] space-x-10 font-[450]">
           <a href="#" className="p-4 active">Home</a>
-          <a href="#" className="p-4">About</a>
-          <a href="#" className="p-4">CV</a>
-          <a href="#" className="p-4">Blog</a>
-          <a href="#" className="p-4">Contact</a>
+          <a href="#about" className="p-4">About</a>
+          <a href="https://cv.fullstack.edu.vn/view/d79f2892-056d-4d3b-8bae-09f65d421e84?token=1jQiBNQxg61w80wcsSGcgkWgK0488oG" className="p-4">CV</a>
+          <a href="#experiences" className="p-4">Experiences</a>
+          <a href="#contact" className="p-4">Contact</a>
         </nav>
 
         <button className="md:hidden px-4" onClick={() => setOpen(true)}>
@@ -46,10 +46,15 @@ const Header = () => {
 
         <nav className="flex flex-col text-[18px] font-[500]">
           <a href="#" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>Home</a>
-          <a href="#" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>About</a>
-          <a href="#" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>CV</a>
-          <a href="#" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>Blog</a>
-          <a href="#" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>Contact</a>
+          <a href="#about" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>About</a>
+          <a 
+            href="https://cv.fullstack.edu.vn/view/d79f2892-056d-4d3b-8bae-09f65d421e84?token=1jQiBNQxg61w80wcsSGcgkWgK0488oG" 
+            className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}
+          >
+            CV
+          </a>
+          <a href="#experiences" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>Experiences</a>
+          <a href="#contact" className="px-6 py-4 hover:bg-[#65b9f8] hover:text-white" onClick={() => setOpen(false)}>Contact</a>
         </nav>
       </div>
     </div>

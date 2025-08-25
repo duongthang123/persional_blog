@@ -2,7 +2,7 @@ import guitarImg from '../assets/guitar.jpg'
 
 function Contact() {
   return (
-    <div className='py-16 bg-[#eaf6ff]'>
+    <div id="contact" className='py-16 bg-[#eaf6ff]'>
         <p className="text-center text-[16px]">Contact me</p>
         <div className="flex justify-center items-center">
             <p className="w-[80px] h-[2px] bg-[#ddd]"></p>

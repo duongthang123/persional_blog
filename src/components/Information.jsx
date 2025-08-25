@@ -7,7 +7,7 @@ const Information = () => {
   return (
     <div className='flex flex-col md:flex-row'>
         <div className='relative flex items-center justify-around bg-[#eaf6ff] md:w-[50%] md:h-[744px]'>
-            <img className='w-[50%] md:w-[80%] h-[90%] object-contain p-8' src={ImgPersional} alt='Anh'/>
+            <img className='w-[50%] md:w-[80%] h-[90%] object-contain p-8' src={ImgPersional} alt='Anh Logo'/>
         </div>
         <div className='flex flex-col items-center justify-center md:w-[50%] py-4 pt-10 md:px-22 text-[#414141]'>
           <p className='text-[16px]'>Hi! I'm</p>
@@ -23,11 +23,11 @@ const Information = () => {
             >
               About me
             </button>
-            <button className='p-2 mx-2 min-w-[120px] border-[2px] rounded-[8px] text-[#fff] bg-[#65b9f8] border-[#65b9f8] font-[450] cursor-pointer
+            <a href='https://cv.fullstack.edu.vn/view/d79f2892-056d-4d3b-8bae-09f65d421e84?token=1jQiBNQxg61w80wcsSGcgkWgK0488oG' className='p-2 text-center mx-2 min-w-[120px] border-[2px] rounded-[8px] text-[#fff] bg-[#65b9f8] border-[#65b9f8] font-[450] cursor-pointer
               transition-all duration-300 transform active:scale-95'
             >
               My CV
-            </button>
+            </a>
           </div>
 
           <nav className='mt-12 p-2'>

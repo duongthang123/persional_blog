@@ -1,4 +1,4 @@
-import Contact from './components/contact'
+import Contact from './components/Contact'
 import Experiencens from './components/Experiencens'
 import Header from './components/Header'
 import Information from './components/Information'

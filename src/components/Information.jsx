@@ -23,11 +23,11 @@ const Information = () => {
             >
               About me
             </button>
-            <button className='p-2 mx-2 min-w-[120px] border-[2px] rounded-[8px] text-[#fff] bg-[#65b9f8] border-[#65b9f8] font-[450] cursor-pointer
+            <a href='https://cv.fullstack.edu.vn/view/d79f2892-056d-4d3b-8bae-09f65d421e84?token=1jQiBNQxg61w80wcsSGcgkWgK0488oG' className='p-2 text-center mx-2 min-w-[120px] border-[2px] rounded-[8px] text-[#fff] bg-[#65b9f8] border-[#65b9f8] font-[450] cursor-pointer
               transition-all duration-300 transform active:scale-95'
             >
               My CV
-            </button>
+            </a>
           </div>
 
           <nav className='mt-12 p-2'>

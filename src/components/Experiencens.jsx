@@ -4,7 +4,7 @@ import Project2Img from "../assets/project2.png"
 
 function Experiencens() {
   return (
-    <div className="py-16">
+    <div id="experiences" className="py-16">
             <p className="text-center text-[16px]">My experiences</p>
             <div className="flex justify-center items-center">
                 <p className="w-[80px] h-[2px] bg-[#ddd]"></p>

@@ -4,7 +4,7 @@ import introduceImg from '../assets/nghiavu2025.jpg';
 
 function Introduce() {
   return (
-    <div>
+    <div id="about">
         <div className="py-16">
             <p className="text-center text-[16px]">My intro</p>
             <div className="flex justify-center items-center">

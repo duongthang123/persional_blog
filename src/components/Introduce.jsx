@@ -16,7 +16,7 @@ function Introduce() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                     <div className="md:px-6">
                         <FontAwesomeIcon icon={faSchool} style={{fontSize: '26px'}}/>
-                        <p className="pt-4">Graduated from software engineering in Hanoi Industrial University. <b>GPA: 3.52</b></p>
+                        <p className="pt-4">Graduated from software engineering in Hanoi University of Industrial . <b>GPA: 3.52</b></p>
                     </div>
 
                     <div className="md:px-6">
